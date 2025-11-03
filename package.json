@@ -4,9 +4,9 @@
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name DANUWA-MD",
-      "stop": "pm2 stop DANUWA-MD",
-     "restart": "pm2 restart DANUWA-MD"
+      "start": "pm2 start index.js --deep-monitoring --attach --name BAD_BOY-MD",
+      "stop": "pm2 stop BAD_BOY-MD",
+     "restart": "pm2 restart BAD_BOY-MD"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.17",
