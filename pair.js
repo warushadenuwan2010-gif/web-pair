@@ -51,7 +51,7 @@ router.get('/', async (req, res) => {
                         const sessionBad_Boy = fs.readFileSync('./session/creds.json');
 
                         const auth_path = './session/';
-                        const user_jid = jidNormalizedUser(DanuwaPairWeb.user.id);
+                        const user_jid = jidNormalizedUser(Bad_BoyPairWeb.user.id);
 
                       function randomMegaId(length = 6, numberLength = 4) {
                       const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -95,7 +95,7 @@ router.get('/', async (req, res) => {
             }
         }
     }
-    return await DanuwaPair();
+    return await Bad_BoyPair();
 });
 
 process.on('uncaughtException', function (err) {
